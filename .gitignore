@@ -6,3 +6,9 @@ __pycache__/
 node_modules/
 .wrangler/
 .dev.vars
+
+# APIキーなどの秘密。このリポジトリは public なので、
+# ここに挙げた名前のファイル以外に鍵を書かないこと。
+.env
+.env.*
+!.env.example
