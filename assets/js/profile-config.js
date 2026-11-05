@@ -85,17 +85,16 @@ window.PROFILE = {
       id: "linkedin",
       label: { ja: "LinkedIn", en: "LinkedIn" },
       sublabel: { ja: "職歴・つながり", en: "Experience & connections" },
-      // 日本語を含むURLなのでパーセントエンコード済み（古い環境でも確実に開くため）
-      url: "https://www.linkedin.com/in/%E7%91%9B%E5%90%BE-%E6%B2%B3%E9%87%8E-5a74b52b7",
+      url: "https://www.linkedin.com/in/eigokono",
       icon: "linkedin",
       accent: "#4a9ae0"
     },
     {
       id: "x",
       label: { ja: "X", en: "X" },
-      sublabel: { ja: "@otbvnkvqc5ngy17", en: "@otbvnkvqc5ngy17" },
+      sublabel: { ja: "@eigo_Ayden", en: "@eigo_Ayden" },
       // 共有リンクに付く ?s= / ?t= は追跡用パラメータなので落としている
-      url: "https://x.com/otbvnkvqc5ngy17",
+      url: "https://x.com/eigo_Ayden",
       icon: "x",
       // Xのロゴは黒。暗い背景では沈んで見えなくなるので、本文の色に追従させる
       // （ダークテーマでは白、ライトテーマではほぼ黒になり、Xの見せ方とも合う）
